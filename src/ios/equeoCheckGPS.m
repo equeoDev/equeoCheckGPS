@@ -1,7 +1,7 @@
 #import "equeoCheckGPS.h"
 #import <CoreLocation/CoreLocation.h>
 
-@implementation CheckGPS
+@implementation equeoCheckGPS
 
 - (void)check:(CDVInvokedUrlCommand*)command
 {
