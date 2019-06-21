@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-equeo-checkGPS",
+  "version": "1.0.0",
+  "description": "A simple plugin to check if gps is enabled on the device",
+  "cordova": {
+    "id": "cordova-plugin-equeo-checkGPS",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Sebastian Graf",
+  "license": "MIT"
+}
