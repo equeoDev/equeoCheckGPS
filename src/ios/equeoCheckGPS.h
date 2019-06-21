@@ -1,5 +1,5 @@
 #import <Cordova/CDV.h>
 
-@interface CheckGPS: CDVPlugin
+@interface equeoCheckGPS: CDVPlugin
     - (void)check:(CDVInvokedUrlCommand*)command;
 @end
