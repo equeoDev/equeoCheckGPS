@@ -1,5 +1,5 @@
-var exec = require('cordova/exec');
+var exec = require('cordova/exec')
 
-exports.CheckGPS = function (arg0, success, error) {
-    exec(success, error, 'equeoCheckGPS', 'check', [arg0]);
-};
+exports.CheckGPS = function (success, error, arg0) {
+  exec(success, error, 'equeoCheckGPS', 'check', [arg0])
+}

@@ -1,4 +1,4 @@
-package de.fastr.phonegap.plugins;
+package cordova-plugin-equeo-checkGPS;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;

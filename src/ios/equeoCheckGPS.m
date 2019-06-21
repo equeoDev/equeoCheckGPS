@@ -1,3 +1,5 @@
+/********* equeoCheckGPS.m Cordova Plugin Implementation *******/
+
 #import "equeoCheckGPS.h"
 #import <CoreLocation/CoreLocation.h>
 
@@ -5,6 +7,8 @@
 
 - (void)check:(CDVInvokedUrlCommand*)command
 {
+
+    NSLog(@"CHECK CALLED");
 	CDVPluginResult* pluginResult = nil;
 	if([CLLocationManager locationServicesEnabled] &&
   	 [CLLocationManager authorizationStatus] != kCLAuthorizationStatusDenied) {
