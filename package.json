@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-equeo-checkGPS",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple plugin to check if gps is enabled on the device",
   "cordova": {
     "id": "cordova-plugin-equeo-checkGPS",
