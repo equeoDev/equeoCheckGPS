@@ -1,4 +1,4 @@
-package cordova-plugin-equeo-checkGPS;
+package de.equeo.checkgps;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
