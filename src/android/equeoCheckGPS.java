@@ -12,7 +12,7 @@ import android.content.Context;
 /*
  * thx to http://stackoverflow.com/questions/843675/how-do-i-find-out-if-the-gps-of-an-android-device-is-enabled
  */
-public class CheckGPS extends CordovaPlugin{
+public class equeoCheckGPS extends CordovaPlugin{
 	@Override
 	public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
 		if (action.equals("check")){
